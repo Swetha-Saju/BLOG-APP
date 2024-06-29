@@ -1,0 +1,52 @@
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#BDAFBD"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50px"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tt"
+        android:hint="enter your title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desription"/>
+
+    <EditText
+        android:id="@+id/disp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your discrption" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MENU"
+        android:textColor="#0F1010"
+        android:background="#E9E5EB"
+        android:layout_margin="50px"
+        android:id="@+id/menu"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:textColor="#0F1010"
+        android:background="#E9E5EB"
+        android:layout_margin="50px"
+        android:id="@+id/bth"/>
+
+
+
+
+</LinearLayout>

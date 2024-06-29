@@ -1,0 +1,54 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#BDAFBD"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50px"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD POST"
+        android:textColor="#0F1010"
+        android:background="#E9E5EB"
+        android:layout_margin="50px"
+        android:id="@+id/addp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE POST"
+        android:textColor="#0F1010"
+        android:background="#E9E5EB"
+        android:layout_margin="50px"
+        android:id="@+id/deletep"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH POST"
+        android:textColor="#0F1010"
+        android:background="#E9E5EB"
+        android:layout_margin="50px"
+        android:id="@+id/searchp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW POST"
+        android:textColor="#0F1010"
+        android:background="#E9E5EB"
+        android:layout_margin="50px"
+        android:id="@+id/viewp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:textColor="#0F1010"
+        android:background="#E9E5EB"
+        android:layout_margin="50px"
+        android:id="@+id/bkth"/>
+
+
+
+
+</LinearLayout>
